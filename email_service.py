@@ -11,7 +11,7 @@ def send_email(email: EmailRequest):
         
         smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
         smtp_server.starttls()
-        smtp_server.login('ramazan.aitimovkz@gmail.com', 'qfjs twtj qirn kktl')
+        smtp_server.login('ramazan.aitimovkz@gmail.com', 'herePassword')
 
         
         msg = MIMEMultipart()
